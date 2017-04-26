@@ -1,5 +1,5 @@
 h1 {
-    color: blanchedalmond
+    color: blanchedalmond;
 }
 
 
@@ -11,5 +11,9 @@ body {
 /*this is id*/
 #wizardname {
     font: bold 12px/30px Georgia, serif;
+}
+/*and a class example!*/
+.magic{
+    color: tomato;
 }
 
