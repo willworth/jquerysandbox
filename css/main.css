@@ -1,10 +1,15 @@
-h1 {color: blanchedalmond}
+h1 {
+    color: blanchedalmond
+}
 
 
 body {
     background-color: lightblue;
     text-align: center;
-
-
-
 }
+
+/*this is id*/
+#wizardname {
+    font: bold 12px/30px Georgia, serif;
+}
+
