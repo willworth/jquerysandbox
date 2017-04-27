@@ -1,0 +1,22 @@
+{
+  "name": "cookie",
+  "version": "1.0.0",
+  "description": "It's important to wait for dom to finish loading.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willworth/jquerysandbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willworth/jquerysandbox/issues"
+  },
+  "homepage": "https://github.com/willworth/jquerysandbox#readme",
+  "dependencies": {
+    "js-cookie": "^2.1.4"
+  }
+}

@@ -17,3 +17,26 @@ body {
     color: tomato;
 }
 
+
+/*.cookie-banner.--visible {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+}*/
+
+
+.cookie-banner-visible {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+}
