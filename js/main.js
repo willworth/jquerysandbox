@@ -5,6 +5,22 @@ console.log("Js coming through...");
 $(document).ready(function(){
     $("h1").text("Here is my modified h1 because jquery works!");
 
+    $( ".magic" ).click(function() {
+  $( ".magic" ).fadeOut( "slow" );
+
+});
+
+// $( "p" ).click(function() {
+//   $( "p" ).fadeOut( "slow" );
+// });
+
+
+
+
+
+
+
+
 document.cookie = "website=magic";
 
 Cookies.set('fightingStyle', 'drunken');

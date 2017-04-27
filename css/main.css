@@ -32,11 +32,32 @@ body {
 
 .cookie-banner-visible {
     display: block;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 3rem;
     width: 100%;
     text-align: center;
+    color: white;
     background: rgba(0, 0, 0, 0.8);
+}
+
+
+
+a {
+
+    color: white;
+}
+
+
+/*this is for testing only*/
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
 }
