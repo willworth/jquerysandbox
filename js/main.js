@@ -10,12 +10,15 @@ $(document).ready(function(){
 
 });
 
-// $( "p" ).click(function() {
-//   $( "p" ).fadeOut( "slow" );
-// });
 
 
-
+$(function() {
+      $(".button").click( function()
+           {
+             $( ".cookie-banner-visible" ).fadeOut( "slow" );
+           }
+      );
+});
 
 
 
