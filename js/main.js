@@ -1,5 +1,6 @@
 //basic js test
 console.log("Js coming through...");
+var Cookie = require('js-cookie');
 
 // always wait for the page!
 $(document).ready(function(){
@@ -7,18 +8,28 @@ $(document).ready(function(){
 
     $( ".magic" ).click(function() {
   $( ".magic" ).fadeOut( "slow" );
-
+document.cookie = "username=John Doe";
 });
 
 
 
 $(function() {
-      $(".button").click( function()
+      $(".willButton").click( function()
            {
              $( ".cookie-banner-visible" ).fadeOut( "slow" );
            }
       );
 });
+
+
+
+
+$("#btnSubmit").click(function(){
+        $( ".cookie-banner-visible" ).fadeOut( "slow" );
+    }); 
+
+
+
 
 
 
@@ -45,3 +56,11 @@ Cookies.get();
 
 
 // $("span").text("$100");
+
+
+
+$(function(){
+
+   // jQuery methods go here...
+
+});

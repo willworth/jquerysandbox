@@ -1,2 +1,36 @@
-// this needs to be the entry point!
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Gandalf</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<script async src="js/jsCookie.js"></script>
+        <link rel="stylesheet" href="css/main.css">
 
+        <!--[if lt IE 9]>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+            <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+        <![endif]-->
+    </head>
+    <body>
+<h1>Here is my original h1 content.</h1>
+        <p>Don't wait for Gandalf; <em>be Gandalf</em>.</p>
+        <br>
+
+        <p id="wizardname">Be Gandalf.</p>
+        <p class="magic">Magic requires you to believe!</p>
+
+        <div class="cookie-banner-visible">This site uses cookies. 
+             By continuing to browse the site you are agreeing to
+        our use of cookies.  
+        <a href="http://www.francepropertyshop.com/privacy">Find out more about cookies here</a>.
+         <!--<button class="button" type="button">Accept cookies</button></div>-->
+         <button class="willButton" type="button"onclick="myFunction(document.cookie = "username=John Doe";)">Accept cookies</button></div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script async src="js/main.js"></script>
+        <!--<script async src="js/jsCookie.js"></script>-->
+    </body>
+</html>
